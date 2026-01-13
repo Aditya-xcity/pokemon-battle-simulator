@@ -112,7 +112,7 @@ python main.py
 
 ### Gameplay Demo (GIF)
 
-![Gameplay Demo](Demo/Demo.gif)
+![Gameplay Demo](battle/Demo/Demo.gif)
 
 ### Battle Screenshot
 
@@ -145,4 +145,5 @@ python main.py
 ## 🏁 Conclusion
 
 This project demonstrates core **game development fundamentals** using Python and Pygame. It combines logic, visuals, and audio to create a complete and interactive mini-game experience.
+
 
