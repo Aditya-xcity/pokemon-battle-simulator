@@ -1,68 +1,70 @@
-==========================================
-        SIMPLE POKÉMON BATTLE GAME
-==========================================
+# 🎮 Simple Pokémon Battle Game
 
-A turn-based Pokémon-style battle game built using Python and Pygame.
-Inspired by classic Pokémon battles with animations, sound effects,
-and clean modular code structure.
+A turn-based Pokémon-style battle game developed using **Python** and **Pygame**.
+Inspired by classic Pokémon battles, this project focuses on clean code structure, smooth animations, sound effects, and an engaging battle flow.
 
-------------------------------------------
-AUTHOR DETAILS
-------------------------------------------
-Name    : Aditya Bhardwaj
-Section : D2
-Roll No : 08
-Course  : B.Tech
-Branch  : Computer Science & Engineering
+---
 
-------------------------------------------
-PROJECT OVERVIEW
-------------------------------------------
-This project simulates a 1v1 Pokémon battle between Charmander
-and Squirtle. The game includes turn-based mechanics, animated
-text, HP bars, sound effects, and win/lose screens.
+## 👤 Author Details
 
-The code is modularized across multiple files to improve
-readability, maintainability, and scalability.
+* **Name:** Aditya Bhardwaj
+* **Section:** D2
+* **Roll No:** 08
+* **Course:** B.Tech
+* **Branch:** Computer Science & Engineering
 
-------------------------------------------
-FEATURES
-------------------------------------------
-- Turn-based Pokémon battle system
-- Animated dialogue (typewriter effect)
-- HP bar animation with color change
-- Move selection menu
-- Pokémon cries & attack sounds
-- Screen vibration on damage
-- Background music
-- Win / Lose screen
-- Restart battle using ENTER key
+---
 
-------------------------------------------
-CONTROLS
-------------------------------------------
-Arrow Keys : Navigate menus
-ENTER      : Select / Continue
-ESC        : Quit game
+## 🧠 Project Overview
 
-------------------------------------------
-PROJECT STRUCTURE
-------------------------------------------
+This project simulates a **one-on-one Pokémon battle** between **Charmander** and **Squirtle**. Players select moves through a menu-driven system while the game manages turns, damage calculation, animations, and battle outcomes.
+
+The codebase is **modularized** across multiple files, separating configuration, UI constants, battle logic, and Pokémon data. This makes the project easier to understand, maintain, and extend.
+
+---
+
+## ✨ Features
+
+* Turn-based Pokémon battle system
+* Animated dialogue box (typewriter effect)
+* Dynamic HP bars with color indicators
+* Move selection menu
+* Pokémon cries and attack sound effects
+* Screen vibration effect on damage
+* Background music during battle
+* Win and loss end screens
+* Restart battle using **ENTER** key
+
+---
+
+## 🎮 Controls
+
+| Key        | Action            |
+| ---------- | ----------------- |
+| Arrow Keys | Navigate menus    |
+| ENTER      | Select / Continue |
+| ESC        | Quit the game     |
+
+---
+
+## 📁 Project Structure
+
+```text
 battle/
 │
-├── main.py
-├── config.py
-├── colors.py
-├── paths.py
-├── ui_constants.py
-├── battle_constants.py
-├── Pokemon_Data.py
+├── main.py                 # Main game loop
+├── config.py               # Screen, font, FPS settings
+├── colors.py               # Color constants
+├── paths.py                # Asset paths
+├── ui_constants.py         # UI layout constants
+├── battle_constants.py     # Battle & animation settings
+├── Pokemon_Data.py         # Pokémon stats and moves
 │
-├── Pokemon/
+├── Pokemon/                # Pokémon sprites
 │   ├── 4.png
 │   └── 7.png
 │
-├── Sound/
+├── Sound/                  # Audio assets
 │   ├── theme.mp3
 │   ├── blip.wav
 │   ├── BattleWInSound.mp3
@@ -73,68 +75,75 @@ battle/
 │       ├── Growl.mp3
 │       └── Tackle.mp3
 │
-├── New folder/
+├── New folder/             # Result screens
 │   ├── WON.jpg
 │   └── Lost.jpg
 │
-└── Demo/
+└── Demo/                   # Gameplay previews
     ├── Battle.JPG
     └── Demo.gif
+```
 
-------------------------------------------
-REQUIREMENTS
-------------------------------------------
-Python 3.10+
-Pygame
+---
+
+## ⚙️ Requirements
+
+* Python **3.10+**
+* Pygame
 
 Install dependency:
-pip install pygame
 
-------------------------------------------
-HOW TO RUN
-------------------------------------------
-1. Open terminal in project folder
+```bash
+pip install pygame
+```
+
+---
+
+## ▶️ How to Run
+
+1. Open a terminal in the project folder
 2. Run the game using:
 
-   python main.py
+```bash
+python main.py
+```
 
-------------------------------------------
-GAME DEMO
-------------------------------------------
+---
 
-Gameplay Demo (GIF):
-------------------------------------------
+## 📸 Game Demo
+
+### Gameplay Demo (GIF)
+
 ![Gameplay Demo](Demo/Demo.gif)
 
-Battle Screenshot:
-------------------------------------------
+### Battle Screenshot
+
 ![Battle Screen](Demo/Battle.JPG)
 
-------------------------------------------
-CONCEPTS USED
-------------------------------------------
-- Game loop & event handling
-- Modular programming
-- State management
-- Animation handling
-- Sound integration
-- UI design for games
+---
 
-------------------------------------------
-FUTURE IMPROVEMENTS
-------------------------------------------
-- Add more Pokémon
-- Type-based damage system
-- Items (Potions, Revives)
-- Pokémon switching
-- Difficulty levels
-- Start & pause menu
+## 📚 Concepts Used
 
-------------------------------------------
-CONCLUSION
-------------------------------------------
-This project demonstrates the fundamentals of game development
-using Python and Pygame. It combines logic, visuals, and audio
-to deliver a complete mini-game experience.
+* Game loop and event handling
+* Modular programming
+* State management
+* Animation and timing control
+* Sound integration
+* Basic UI/UX design for games
 
-==========================================
+---
+
+## 🚀 Future Improvements
+
+* Add more Pokémon
+* Type-based damage system
+* Items such as Potions and Revives
+* Pokémon switching during battle
+* Difficulty levels
+* Start menu and pause screen
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates core **game development fundamentals** using Python and Pygame. It combines logic, visuals, and audio to create a complete and interactive mini-game experience.
