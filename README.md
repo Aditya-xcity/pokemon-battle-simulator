@@ -8,8 +8,6 @@ Inspired by classic Pokémon battles, this project focuses on clean code structu
 ## 👤 Author Details
 
 * **Name:** Aditya Bhardwaj
-* **Section:** D2
-* **Roll No:** 08
 * **Course:** B.Tech
 * **Branch:** Computer Science & Engineering
 
@@ -147,3 +145,4 @@ python main.py
 ## 🏁 Conclusion
 
 This project demonstrates core **game development fundamentals** using Python and Pygame. It combines logic, visuals, and audio to create a complete and interactive mini-game experience.
+
