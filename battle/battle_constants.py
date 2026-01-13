@@ -1,0 +1,8 @@
+HP_GREEN_THRESHOLD = 0.5
+HP_YELLOW_THRESHOLD = 0.2
+
+CHARMANDER_DAMAGE_RANGE = (5, 10)
+SQUIRTLE_DAMAGE_RANGE = (4, 8)
+
+HP_ANIMATION_SPEED = 1      # HP ticks per frame
+TEXT_SPEED = 35             # ms per character
