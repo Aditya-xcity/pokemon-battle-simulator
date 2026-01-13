@@ -116,7 +116,7 @@ python main.py
 
 ### Battle Screenshot
 
-![Battle Screen](battle/Demo/Demo.gif)
+![Battle Screen](battle/Demo/Battle.JPG)
 
 ---
 
@@ -145,6 +145,7 @@ python main.py
 ## 🏁 Conclusion
 
 This project demonstrates core **game development fundamentals** using Python and Pygame. It combines logic, visuals, and audio to create a complete and interactive mini-game experience.
+
 
 
 
